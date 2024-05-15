@@ -1,22 +1,23 @@
 import './App.css';
-import {createBrowserRouter, RouterProvider} from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import VideoPage from './components/VideoPage';
 
 function App() {
-  const route= createBrowserRouter([
+  const route = createBrowserRouter([
     {
-      path:"/",
-      element:<HomePage/>
+      path: "/",
+      element: <HomePage />
     },
     {
-      path:"/room/:id",
-      element:<videoPage/>
+      path: "/room/:id",
+      element: <VideoPage /> // Corrected casing
     }
-  ])
+  ]);
+
   return (
     <div className="App">
-      <RouterProvider router={route}/>
+      <RouterProvider router={route} />
     </div>
   );
 }
