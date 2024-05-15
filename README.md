@@ -26,6 +26,8 @@ Before you begin, ensure you have met the following requirements:
 - MongoDB (optional, for user management)
 
 ## Screenshot
+![image](https://github.com/RajAditya01/videocall-app/assets/101439988/8bde3fd8-6c96-4c14-9100-21c7f0f2bb35)
+--- -
 ![image](https://github.com/RajAditya01/videocall-app/assets/101439988/ca28134c-9d76-43e1-a7e5-6852f15a247b)
 
 
