@@ -1,18 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const Home = () => {
+const HomePage = () => {
+    const [input , setInput]= useState("");
   return (
     <div>
-      <h1>Welcome to VideoCall App</h1>
-      <p>This is the landing page of our application.</p>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/videos">Videos</a></li>
-        </ul>
-      </nav>
+      <div>
+        <input type='text' placeholder='Enter your name...'/>
+        <button>Join</button>
+      </div>
     </div>
   );
 };
 
-export default Home;
+export default HomePage;

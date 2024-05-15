@@ -1,5 +1,8 @@
 import './App.css';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
+import HomePage from './components/HomePage';
+import VideoPage from './components/VideoPage';
+
 function App() {
   const route= createBrowserRouter([
     {
